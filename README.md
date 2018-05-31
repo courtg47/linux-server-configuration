@@ -1,8 +1,6 @@
 # Linux Server Configuration
 
-This project takes a baseline installation of Ubuntu Linux on AWS Lightsail and prepares it to host web applications.
-The exercise catalog project is served and all security and firewall settings were configured. This project satisfies the
-Linux Server Configuration project from Udacity's Full Stack Web Developer curriculum.
+This project takes a baseline installation of Ubuntu Linux on [AWS Lightsail](https://aws.amazon.com/lightsail/) and prepares it to host a web application.  The [Exercise Catalog project](https://github.com/courtg47/exercise-catalog) is served and all security and firewall settings were configured. This project satisfies the Linux Server Configuration project from Udacity's Full Stack Web Developer curriculum.
 
 
 ## Accessing the Server
@@ -32,7 +30,7 @@ SSH key required to access this project for purposes of grading will be sent in 
 * oauth2client
 
 
-## Configurations Made to the Server
+## Configurations to the Server
 
 * Updated and upgraded installed packages
 * Installed finger
@@ -59,7 +57,7 @@ SSH key required to access this project for purposes of grading will be sent in 
 * Installed virtual environment in the same directory as the app project via `virtualenv` command. Named it `VM`.
 * Inside the virtual environment, installed all dependencies listed under *Software Installed* section
 * Created virtual host config file in the `/etc/apache2/sites-available` directory called `catalog.conf`
-* Created the `catalog.wsgi` file in the `\var\www\catalog` directory and configured it
+* Created and configured the `catalog.wsgi` file in the `\var\www\catalog` directory
 * Installed PostgreSQL and created new database `catalog` as `postgres` user
 * Cloned database dump from Github into empty directory in the `catalog` directory
 * Populated empty `catalog` database with DB dump
@@ -69,13 +67,12 @@ SSH key required to access this project for purposes of grading will be sent in 
 * Ran `database_setup.py`
 * Altered JavaScript Origins and redirect URIs in the Google Signin API key
 * Copied new client secrets into `client_secrets.json` file
-* Made sure `.git` directory was not publicly accessible via the browser. Changed settings in the 
-`/etc/apache2/conf-enabled/security.conf` file
+* Changed settings in the `/etc/apache2/conf-enabled/security.conf` file to ensure the `.git` directory was not publicly accessible via   the browser.
 * In the virtual machine, restarted apache service and ran `__init__.py`
-* Accessed the served application at the above stated URL/IP address
+* Accessed the served application at the above stated URL.
 
 
 ## Third-Party Resources
 
-* [Xip.io](http://xip.io/) - a wildcard DNS service used to test web applications without registering a domain name. This was utilized for JavaScript
-origins in the Google Sign In API key. Requires adding `xip.io` to the end of an IP address.
+* [Xip.io](http://xip.io/) - a wildcard DNS service used to test web applications without registering a domain name. This was utilized for JavaScript origins in the Google Sign In API key. Requires adding `xip.io` to the end of an IP address.
+
