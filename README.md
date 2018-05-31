@@ -1,6 +1,6 @@
 # Linux Server Configuration
 
-This project takes a baseline installation of Ubuntu Linux on [AWS Lightsail](https://aws.amazon.com/lightsail/) and prepares it to host a web application.  The [Exercise Catalog project](https://github.com/courtg47/exercise-catalog) is served and all security and firewall settings were configured. This project satisfies the Linux Server Configuration project from Udacity's Full Stack Web Developer curriculum.
+This project takes a baseline installation of Ubuntu Linux on [AWS Lightsail](https://aws.amazon.com/lightsail/) and prepares it to host a web application.  The [Exercise Catalog project](https://github.com/courtg47/exercise-catalog) is served and all security and firewall settings are configured. This project satisfies the Linux Server Configuration project from Udacity's Full Stack Web Developer curriculum.
 
 
 ## Accessing the Server
