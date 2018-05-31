@@ -76,3 +76,5 @@ SSH key required to access this project for purposes of grading will be sent in 
 
 * [Xip.io](http://xip.io/) - a wildcard DNS service used to test web applications without registering a domain name. This was utilized for JavaScript origins in the Google Sign In API key. Requires adding `xip.io` to the end of an IP address.
 
+* [Amazon Lightsail](https://aws.amazon.com/lightsail/) - A cloud-based virtual private server with Amazon Web Services (AWS).
+
