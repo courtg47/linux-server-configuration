@@ -57,7 +57,7 @@ SSH key required to access this project for purposes of grading will be sent in 
 * Installed virtual environment in the same directory as the app project via `virtualenv` command. Named it `VM`.
 * Inside the virtual environment, installed all dependencies listed under *Software Installed* section
 * Created virtual host config file in the `/etc/apache2/sites-available` directory called `catalog.conf`
-* Created and configured the `catalog.wsgi` file in the `\var\www\catalog` directory
+* Created and configured the `catalog.wsgi` file in the `/var/www/catalog` directory
 * Installed PostgreSQL and created new database `catalog` as `postgres` user
 * Cloned database dump from Github into empty directory in the `catalog` directory
 * Populated empty `catalog` database with DB dump
